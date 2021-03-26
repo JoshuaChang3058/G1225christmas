@@ -301,6 +301,34 @@ basic.forever(function () {
             # . . . #
             # # # # #
             `)
+        basic.showLeds(`
+            . # . # .
+            # . # . #
+            . # . # .
+            # . # . #
+            . # . # .
+            `)
+        basic.showLeds(`
+            . # # # .
+            # . # . #
+            # # . # #
+            # . # . #
+            . # # # .
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # . # #
+            # . # . #
+            # # . # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # . # . #
+            . # # # .
+            # # # # #
+            . # # # .
+            # . # . #
+            `)
         basic.showIcon(IconNames.Ghost)
         basic.showIcon(IconNames.Diamond)
         basic.showIcon(IconNames.Skull)
